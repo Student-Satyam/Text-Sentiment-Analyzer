@@ -1,5 +1,6 @@
 import streamlit as st
 from transformers import pipeline
+import torch
 
 # Load the pre-trained sentiment analysis model
 @st.cache_resource
